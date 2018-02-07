@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEventsource.App", "DemoEventsource.App\DemoEventsource.App.csproj", "{3D728D35-F243-42A0-8532-A32551EDA3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoEventsource.App", "DemoEventsource.App\DemoEventsource.App.csproj", "{3D728D35-F243-42A0-8532-A32551EDA3ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2C4A94D7-37BE-4724-B65A-BE513220085F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEventsource.Test", "DemoEventsource.Test\DemoEventsource.Test.csproj", "{7958B3EE-25B0-4C8A-A756-2D1042DFA816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoEventsource.Test", "DemoEventsource.Test\DemoEventsource.Test.csproj", "{7958B3EE-25B0-4C8A-A756-2D1042DFA816}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D900B0D2-BC74-4BFC-AF2E-FCE8ACD29FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEventsource.Domain", "DemoEventsource.Domain\DemoEventsource.Domain.csproj", "{6E6614C2-0501-4A58-ACCC-95DF188FD6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoEventsource.Domain", "DemoEventsource.Domain\DemoEventsource.Domain.csproj", "{6E6614C2-0501-4A58-ACCC-95DF188FD6AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +36,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{3D728D35-F243-42A0-8532-A32551EDA3ED} = {D900B0D2-BC74-4BFC-AF2E-FCE8ACD29FEC}
 		{7958B3EE-25B0-4C8A-A756-2D1042DFA816} = {2C4A94D7-37BE-4724-B65A-BE513220085F}
 		{6E6614C2-0501-4A58-ACCC-95DF188FD6AE} = {D900B0D2-BC74-4BFC-AF2E-FCE8ACD29FEC}
 	EndGlobalSection

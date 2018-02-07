@@ -7,7 +7,7 @@ namespace DemoEventsource.Domain.Factories
     {
     }
 
-    public class EvsentFactory : IEventFactory
+    public class EventFactory : IEventFactory
     {
         public static Event<T> Create<T>(Guid streamId, T data)
         {
