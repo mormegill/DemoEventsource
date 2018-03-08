@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NServiceBus.Core">
+      <HintPath>..\..\..\Users\andreas.forsberg\.nuget\packages\nservicebus\6.4.3\lib\net452\NServiceBus.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,11 +1,9 @@
 ﻿using System;
-using DemoEventsource.Domain.Events;
+using DemoEventsource.Domain.Messaging.Events;
 
 namespace DemoEventsource.Domain.Factories
 {
-    public interface IEventFactory
-    {
-    }
+    public interface IEventFactory {}
 
     public class EventFactory : IEventFactory
     {
